@@ -1,1 +1,1 @@
-# timer
+Introducing a dynamic countdown timer that allows users to set their desired date and time for any event. This intuitive tool not only tracks the time remaining but also features a real-time digital clock displaying the current time. With a user-friendly interface and sleek design, it seamlessly combines functionality and aesthetics, making it perfect for personal or professional use. Whether you’re counting down to a special occasion or managing schedules, this timer keeps you informed and organized.
