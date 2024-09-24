@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(15, 80, 146);
+    height: 100vh; /* Full height for vertical centering */
+    display: flex; /* Use Flexbox to center */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.container {
+    width: 520px; /* Fixed width to maintain circular shape */
+    height: 520px; /* Fixed height to maintain circular shape */
+    padding: 20px;
+    background: white;
+    border-radius: 50%; /* Round shape */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text inside */
+    overflow: hidden; /* Hide overflow content */
+}
+
+h1 {
+    margin-top: 40px; /* Add some space below the heading */
+    font-size: 22px; /* Adjust font size for better fit */
+    font-weight: bold; /* Make the text bold */
+    color: rgb(15, 80, 146);
+    border-color: black;
+}
+
+label {
+    display: block;
+    margin-top: 20px ; /* Adjust margins */
+    margin-bottom: 20px;
+    
+}
+
+input[type="datetime-local"] {
+    width: 90%; /* Keep some space on the sides */
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #26ff00;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #027233;
+    color: aqua;
+}
+
+.countdown-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px; /* Space above the countdown */
+}
+
+.countdown-border {
+    border: 10px solid yellowgreen; /* Initial border color */
+    border-radius: 70%; /* Round shape */
+    width: 550px; /* Width of the border */
+    height: 550px; /* Height of the border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.countdown {
+ 
+    margin-top: 10px; /* Adjust margin */
+    margin-bottom: 25px;
+}
+
+.countdown i {
+    margin-right: 10px; /* Space between icon and text */
+    color: #007bff; /* Icon color */
+}
+
+#timer span {
+    font-size: 20px; /* Adjust font size */
+    font-weight: bold;
+}
+
+#current-time {
+    margin-top: 10px; /* Adjust margin */
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#clock {
+    color: rgba(0, 255, 0, 0.8);
+    font-size: 32px; /* Adjust size */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for a digital effect */
+    text-shadow: 0 0 20px yellowgreen; /* Neon effect */
+    
+}
+#current-date {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
