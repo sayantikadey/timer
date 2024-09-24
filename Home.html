@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Countdown Timer</title>
+    <link rel="stylesheet" href="Home.css">
+    <script src="https://kit.fontawesome.com/37bb19ae9c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="countdown-container">
+        <div class="countdown-border" id="countdown-border">
+            <div class="container" id="countdown">
+                <h1>Stopwatch</h1>
+                <label for="event-date">Select Event Date and Time:</label>
+                <input type="datetime-local" id="event-date" required>
+                <button id="start-timer">Start Countdown</button>
+                    <div id="countdown" class="countdown hidden">
+                        <h2>Countdown:</h2>
+                    <div id="timer">
+                        <i class="fa-solid fa-bell"></i>
+                        <span id="days">00</span> days 
+                        <span id="hours">00</span> hours 
+                        <span id="minutes">00</span> minutes 
+                        <span id="seconds">00</span> seconds
+                    </div>
+                    </div>
+                <div id="current-time">
+                    <div id="clock"></div>
+                </div>
+                <div id="current-date"></div>
+            </div>
+        </div>
+    </div>
+    <script src="Home.js"></script>
+</body>
+</html>
